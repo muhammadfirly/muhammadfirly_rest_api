@@ -1,0 +1,47 @@
+name: muhammadfirly_rest_api
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  get_storage: ^2.1.1
+  shared_preferences: ^2.5.3
+  http: ^1.4.0
+  cached_network_image: ^3.4.1
+  uuid: ^4.5.1
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/carolinaherrera.png
+    - assets/images/cartier.png
+    - assets/images/chanelno5.png
+    - assets/images/diorsauvage.png
+    - assets/images/givenchylinterdit.png
+    - assets/images/guccibloom.png
+    - assets/images/jomalone.png
+    - assets/images/lemonde.png
+    - assets/images/versacebc.png
+    - assets/images/ysllibre.png
+    - assets/images/myphoto.JPG
+  fonts:
+    - family: GreatVibes
+      fonts:
+        - asset: assets/fonts/GreatVibes-Regular.ttf
